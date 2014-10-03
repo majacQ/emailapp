@@ -4,6 +4,6 @@ This is a sample app to reproduce https://github.com/ged/ruby-pg/pull/5
 
 I can see this bug in ruby 2.2.0dev only.
 
-run "rspec spec/requests/users_spec.rb" may reporoduce the bug.
+run "rspec spec/requests/users_spec.rb" may reproduce the bug.
 
 Also err.log and diff.log may help you.
