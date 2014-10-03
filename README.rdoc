@@ -6,6 +6,7 @@ I can sed this bug in ruby 2.2.0dev only.
 
 
 ```
+
 diff -ru emailapp_base/app/models/user.rb emailapp/app/models/user.rb
 --- emailapp_base/app/models/user.rb    2014-10-03 14:20:47.000000000 +0900
 +++ emailapp/app/models/user.rb 2014-10-03 14:21:29.000000000 +0900
@@ -109,4 +110,6 @@ diff -ru emailapp_base/spec/spec_helper.rb emailapp/spec/spec_helper.rb
  =end
 +  config.include Capybara::DSL
  end
+ 
 ```
+
