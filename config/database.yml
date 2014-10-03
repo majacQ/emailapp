@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: utf8
+  database: emailapp_dev
+  pool: 5
+  username: rdev
+  password:
+test:
+  adapter: postgresql
+  host: localhost
+  encoding: utf8
+  database: emailapp_test
+  pool: 5
+  username: rdev
+  password:
