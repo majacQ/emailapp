@@ -5,7 +5,7 @@ gem 'pg'
 group :development, :test do
   gem 'rspec-rails'
   gem 'selenium-webdriver'
-  gem 'capybara'
+  gem 'capybara', '>= 2.4.3'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
