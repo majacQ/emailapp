@@ -4,7 +4,7 @@ gem 'pg'
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 2.43.0'
   gem 'capybara'
 end
 
