@@ -9,20 +9,32 @@ group :development, :test do
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+  <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
+gem 'rails', '5.0.0'
+  =======
 gem 'rails', '5.2.8.1'
+  >>>>>>> master
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0.5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
+  <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
+gem 'coffee-rails', '~> 4.1.1'
+  =======
 gem 'coffee-rails', '~> 4.0.1'
+  >>>>>>> master
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
+  <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
+gem 'jquery-rails', '>= 4.0.1'
+  =======
 gem 'jquery-rails', '>= 4.4.0'
+  >>>>>>> master
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
