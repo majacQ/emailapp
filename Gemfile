@@ -4,9 +4,14 @@ gem 'pg'
 
 group :development, :test do
   gem 'rspec-rails'
+  <<<<<<< snyk-fix-4a96b768bbb526f17e55c0d70d024197
+  gem 'selenium-webdriver'
+  gem 'capybara', '>= 2.4.3'
+  =======
   gem 'selenium-webdriver', '>= 2.43.0'
   gem 'capybara'
-end
+  >>>>>>> master
+  end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
   <<<<<<< snyk-fix-23edbccf0018b9f1aba6fe91d644e2c6
