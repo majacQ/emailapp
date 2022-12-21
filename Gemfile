@@ -15,18 +15,18 @@ group :development, :test do
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
   <<<<<<< snyk-fix-23edbccf0018b9f1aba6fe91d644e2c6
-gem 'rails', '5.2.7.1'
+gem 'rails', '4.2.0'
   =======
   <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
-gem 'rails', '5.0.0'
+gem 'rails', '4.2.0'
   =======
-gem 'rails', '5.2.8.1'
+gem 'rails', '4.2.0'
   >>>>>>> master
   >>>>>>> master
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.5'
+gem 'sass-rails', '~> 6.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
