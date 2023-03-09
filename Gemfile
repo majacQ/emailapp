@@ -15,12 +15,12 @@ group :development, :test do
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
   <<<<<<< snyk-fix-23edbccf0018b9f1aba6fe91d644e2c6
-gem 'rails', '5.2.7.1'
+gem 'rails', '5.0.0'
   =======
   <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
 gem 'rails', '5.0.0'
   =======
-gem 'rails', '5.2.8.1'
+gem 'rails', '5.0.0'
   >>>>>>> master
   >>>>>>> master
 # Use sqlite3 as the database for Active Record
@@ -31,12 +31,12 @@ gem 'sass-rails', '~> 5.0.5'
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
   <<<<<<< snyk-fix-23edbccf0018b9f1aba6fe91d644e2c6
-gem 'coffee-rails', '~> 4.2.2'
+gem 'coffee-rails', '~> 4.1.1'
   =======
   <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
 gem 'coffee-rails', '~> 4.1.1'
   =======
-gem 'coffee-rails', '~> 4.0.1'
+gem 'coffee-rails', '~> 4.1.1'
   >>>>>>> master
   >>>>>>> master
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -49,7 +49,7 @@ gem 'jquery-rails', '>= 4.0.1'
   <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
 gem 'jquery-rails', '>= 4.0.1'
   =======
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-rails', '>= 4.0.1'
   >>>>>>> master
   >>>>>>> master
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
