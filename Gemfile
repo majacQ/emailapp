@@ -15,18 +15,18 @@ group :development, :test do
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
   <<<<<<< snyk-fix-23edbccf0018b9f1aba6fe91d644e2c6
-gem 'rails', '5.2.7.1'
+gem 'rails', '6.1.7.3'
   =======
   <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
-gem 'rails', '5.0.0'
+gem 'rails', '6.1.7.3'
   =======
-gem 'rails', '5.2.8.1'
+gem 'rails', '6.1.7.3'
   >>>>>>> master
   >>>>>>> master
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.5'
+gem 'sass-rails', '~> 5.0.8'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -34,9 +34,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2.2'
   =======
   <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
-gem 'coffee-rails', '~> 4.1.1'
+gem 'coffee-rails', '~> 4.2.2'
   =======
-gem 'coffee-rails', '~> 4.0.1'
+gem 'coffee-rails', '~> 4.2.2'
   >>>>>>> master
   >>>>>>> master
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -49,13 +49,13 @@ gem 'jquery-rails', '>= 4.0.1'
   <<<<<<< snyk-fix-2dac2da7e11e57be254bff61949038ba
 gem 'jquery-rails', '>= 4.0.1'
   =======
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-rails', '>= 4.0.1'
   >>>>>>> master
   >>>>>>> master
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '>= 2.3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.1', '>= 2.1.3'
+gem 'jbuilder', '~> 2.6', '>= 2.6.4'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
